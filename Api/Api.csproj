@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-Api-762A1B60-7D88-46B9-8CC6-38A29DC53D23</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ChilkatDnCore" Version="9.5.0.83" />
+        <PackageReference Include="DotNetOpenAuth" Version="4.3.4.13329" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+    </ItemGroup>
+</Project>

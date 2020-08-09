@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-Wants-94403CDC-2D48-473B-8B0A-56CBCC59CD49</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ChilkatDnCore" Version="9.5.0.83" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Api\Api.csproj" />
+    </ItemGroup>
+</Project>
