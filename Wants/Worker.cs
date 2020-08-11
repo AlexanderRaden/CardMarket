@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +25,7 @@ namespace Wants
 		{
 			var selectedUser = Configuration.User["raden"];
 			var result = Request.Singleton().GetRequest(selectedUser, EndpointConfig.Path);
+			Console.WriteLine("Ended!");
 		}
 	}
 }
